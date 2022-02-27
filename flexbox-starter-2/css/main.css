@@ -102,22 +102,36 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'redressed', sans-serif;  
   padding: 0 2em;
-  font-size: 1.25em;
+  font-size: 1.20em;
   height: 100%;
-  color: #fff;
+  color: #001a00;
+  background: url('../img/R.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
-header,
+h2 {
+    color: #001a00;
+    position: absolute;
+    top: 45%;
+}
+
+header {
+    font-size: 2em;
+    height: 80px;
+    width: 100%;
+}
+
 footer {
-  background-color: #222;
+  background-color: transparent;
   height: 80px;
   width: 100%;
 }
 
 main {
-  background-color: #ccc;
+  font-size: 1.3em;
   height: 250px;
   width: 100%;
   display: flex;
@@ -133,6 +147,13 @@ main {
     align-items: center;
 }
 
+span {
+    font-family: 'Lora', sans-serif;
+}
+
+.contact {
+    display: inline;
+}
 .flex-container {
     display: flex;
     justify-content: center;
@@ -142,16 +163,17 @@ main {
 }
 
 .flex-items {
-    display: flex;
-  color: #fff;
+  text-align: center;
+  display: flex;
+  color: #001a01;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
   width: 30%;
   height: 200px;
   justify-content: center;
   align-items: center;
 }
+
 
 /* ==========================================================================
    Helper classes
